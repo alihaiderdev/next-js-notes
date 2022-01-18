@@ -1,0 +1,20 @@
+dynamic id is string and params is array 
+
+pre rendering and data fetching 
+
+types of pre rendering:
+    1. static generation 
+        without data
+        with data 
+        incremental static generation 
+        dynamic parameters when fetching data 
+    2. Server side rendering 
+        data fetching
+
+    3. client side data fetching
+    4. combine pre rendering with client side data fetching
+
+
+pre rendering in next.js
+    static generation
+    Server side rendering
