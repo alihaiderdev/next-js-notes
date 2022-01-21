@@ -1,4 +1,5 @@
 import React from 'react';
+import User from '../components/user';
 
 // receiving users as props at build time
 const UserList = ({ users }) => {
@@ -8,22 +9,7 @@ const UserList = ({ users }) => {
       <h1>List of Users</h1>
       {users &&
         users.map((user) => {
-          return (
-            <div key={user.id} style={{ margin: '3rem 0' }}>
-              <p style={{ margin: '0' }}>
-                <b>email:</b> {user.email}
-              </p>
-              <p style={{ margin: '0' }}>
-                <b>name:</b> {user.name}
-              </p>
-              <p style={{ margin: '0' }}>
-                <b>username:</b> {user.username}
-              </p>
-              <p style={{ margin: '0' }}>
-                <b>website:</b> {user.website}
-              </p>
-            </div>
-          );
+          return <User key={user.id} user={user} />;
         })}
     </>
   );

@@ -6,21 +6,42 @@ const Home = () => {
   const handleClick = () => {
     router.push('/product');
   };
+
   return (
     <>
       <h1>Home Page</h1>
-      <Link href={'/blog'}>
-        <a>Blog</a>
-      </Link>
-      <Link href={'/product'}>
-        <a>Products</a>
-      </Link>
-      <Link href={'/profile'}>
-        <a>Profile</a>
-      </Link>
-      <Link href={'/about'}>
-        <a>About</a>
-      </Link>
+      <ol>
+        <li>
+          <Link href={'/blog'}>
+            <a>Blog</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={'/product'}>
+            <a>Products</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={'/profile'}>
+            <a>Profile</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={'/about'}>
+            <a>About</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={'/users'}>
+            <a>Users</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={'/posts'}>
+            <a>Posts</a>
+          </Link>
+        </li>
+      </ol>
 
       <button onClick={handleClick}>Place Order</button>
     </>
