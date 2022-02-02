@@ -18,7 +18,7 @@ const Home = () => {
         </li>
         <li>
           <Link href={'/product'}>
-            <a>Products</a>
+            <a>Product List</a>
           </Link>
         </li>
         <li>
@@ -39,6 +39,11 @@ const Home = () => {
         <li>
           <Link href={'/posts'}>
             <a>Posts</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={'/products'}>
+            <a>Products</a>
           </Link>
         </li>
       </ol>
