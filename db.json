@@ -1,4 +1,42 @@
 {
+  "dashboard": {
+    "posts": 500,
+    "likes": 1000,
+    "followers": 200,
+    "following": 500
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "News article 1",
+      "description": "News description 1",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "News article 2",
+      "description": "News description 2",
+      "category": "sports"
+    },
+    {
+      "id": 3,
+      "title": "News article 3",
+      "description": "News description 3",
+      "category": "sports"
+    },
+    {
+      "id": 4,
+      "title": "News article 4",
+      "description": "News description 4",
+      "category": "politics"
+    },
+    {
+      "id": 5,
+      "title": "News article 5",
+      "description": "News description 5",
+      "category": "politics"
+    }
+  ],
   "products": [
     {
       "id": 1,
